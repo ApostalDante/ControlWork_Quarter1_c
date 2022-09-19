@@ -27,7 +27,7 @@ string[] ConvertArray(string[] array, int size)
 }
 
 // Код программы
-string[] originalArray = { "Russia", "Denmark", "Kazan" };
+string[] originalArray = { "hello", "2", "world", ":-)" };
 int sizeArray = CountElement(originalArray);
 string[] finalArray = new string[sizeArray];
 finalArray = ConvertArray(originalArray, sizeArray);
